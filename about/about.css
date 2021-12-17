@@ -1,0 +1,48 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color:black;
+    color:aqua
+}
+
+.landing {
+    height: auto;
+    margin:0 auto 0 auto;
+
+}
+
+.landing a {
+    font-size:80px;
+    text-shadow: -10px -5px 0 black;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+
+}
+
+navbar {
+    display:flex; 
+    flex-direction: column;
+    height:100vh;
+    width:160px;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color: aqua;
+    text-align: center;
+}
+
+.navigation{
+    display:flex; 
+    flex-direction: column;
+}
+
+.navigation a{
+    margin:auto;
+    padding:10px;
+}
+
+.body-container{
+    margin-left: 160px;
+}
